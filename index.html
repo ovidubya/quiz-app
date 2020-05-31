@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Quiz App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <style>
+        :root {
+            --main-bg: #031C29;
+            --primary: #4AB2ED;
+            --secondary: #B78D7E;
+            --danger: #d63031;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Lato', sans-serif;
+        }
+
+        body {
+            font-size: 16px;
+            background-color: var(--main-bg);
+        }
+
+        /* .container {
+            height: 95vh;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            grid-template-rows: 1fr;
+            grid-column-gap: 20px;
+        }
+
+        .questions-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto 2fr;
+        }
+
+        .stats-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 8fr;
+        } */
+
+        p {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="app"></div>
+    <script src="app.tsx"></script>
+</body>
+
+</html>
